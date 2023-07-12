@@ -1,9 +1,2 @@
-var num=Int(String(readLine()!))!,a=""
-switch num{
-    case 90...100:a="A"
-    case 80...89:a="B"
-    case 70...79:a="C"
-    case 60...69:a="D"
-    default:a="F"
-}
-print(a)
+var num=Int(readLine()!)!
+print( num>=90 ?"A":num>=80 ?"B":num>=70 ?"C":num>=60 ?"D":"F" )
